@@ -1,0 +1,93 @@
+2015-10-31 12:47:33.662 00009 FILESTART > CYBERSOURCE LOG FILE
+
+===============================================================================
+2015-10-31 12:47:33.666 00009 TRANSTART > 
+2015-10-31 12:47:33.670 00009 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-10-31 12:50:31.063 00008 TRANSTART > 
+2015-10-31 12:50:31.066 00008 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-10-31 12:53:01.160 00007 TRANSTART > 
+2015-10-31 12:53:01.163 00007 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-10-31 12:56:38.075 00015 TRANSTART > 
+2015-10-31 12:56:38.077 00015 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-10-31 14:05:47.755 00009 TRANSTART > 
+2015-10-31 14:05:47.758 00009 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-10-31 15:37:23.143 00008 TRANSTART > 
+2015-10-31 15:37:23.178 00008 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-10-31 15:39:54.381 00007 TRANSTART > 
+2015-10-31 15:39:54.385 00007 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-10-31 18:43:34.955 00011 TRANSTART > 
+2015-10-31 18:43:34.959 00011 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-10-31 19:41:02.038 00009 TRANSTART > 
+2015-10-31 19:41:02.041 00009 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 11:32:38.896 00008 TRANSTART > 
+2015-11-02 11:32:38.913 00008 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 12:39:09.569 00009 TRANSTART > 
+2015-11-02 12:39:09.571 00009 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 12:42:13.017 00007 TRANSTART > 
+2015-11-02 12:42:13.019 00007 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 12:51:41.381 00007 TRANSTART > 
+2015-11-02 12:51:41.383 00007 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 13:29:34.264 00006 TRANSTART > 
+2015-11-02 13:29:34.267 00006 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 13:31:54.819 00007 TRANSTART > 
+2015-11-02 13:31:54.822 00007 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 13:39:08.315 00009 TRANSTART > 
+2015-11-02 13:39:08.318 00009 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 13:41:21.737 00009 TRANSTART > 
+2015-11-02 13:41:21.740 00009 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 13:48:51.289 00006 TRANSTART > 
+2015-11-02 13:48:51.293 00006 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 13:49:17.792 00007 TRANSTART > 
+2015-11-02 13:49:17.794 00007 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 15:05:11.299 00053 TRANSTART > 
+2015-11-02 15:05:11.329 00053 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 15:11:12.506 00009 TRANSTART > 
+2015-11-02 15:11:12.510 00009 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 15:33:29.567 00025 TRANSTART > 
+2015-11-02 15:33:29.572 00025 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12
+
+===============================================================================
+2015-11-02 17:57:23.996 00008 TRANSTART > 
+2015-11-02 17:57:24.000 00008 CONFIG    > keysDirectory=C:\CyberSource\keys,serverURL=https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor/,keyFilename=r7990697.p12,timeout=130,connectionLimit=12

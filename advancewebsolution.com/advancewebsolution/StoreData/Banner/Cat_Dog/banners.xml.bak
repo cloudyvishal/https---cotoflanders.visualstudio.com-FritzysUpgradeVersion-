@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rotator isRandom="true">
+  <bannerTime>5</bannerTime>
+  <numberOfBanners>5</numberOfBanners>
+  <banners showHeader="true">
+    <banner>
+      <name>1</name>
+      <body>Lorem Ipsum</body>
+      <imagePath>image1.jpg</imagePath>
+      <link>http://www.sitename.com</link>
+    </banner>
+	
+	<banner>
+      <name>1</name>
+      <body>Lorem Ipsum</body>
+      <imagePath>image2.jpg</imagePath>
+      <link>http://www.sitename.com</link>
+    </banner>
+	
+	<banner>
+      <name>1</name>
+      <body>Lorem Ipsum</body>
+      <imagePath>image3.jpg</imagePath>
+      <link>http://www.sitename.com</link>
+    </banner>
+	
+	<banner>
+      <name>1</name>
+      <body>Lorem Ipsum</body>
+      <imagePath>image4.jpg</imagePath>
+      <link>http://www.sitename.com</link>
+    </banner>
+	
+	<banner>
+      <name>1</name>
+      <body>Lorem Ipsum</body>
+      <imagePath>image5.jpg</imagePath>
+      <link>http://www.sitename.com</link>
+    </banner>
+    
+	 </banners>
+</rotator>

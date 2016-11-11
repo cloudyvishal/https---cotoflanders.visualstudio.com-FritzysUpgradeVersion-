@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rotator isRandom="false">
+  <bannerTime>5</bannerTime>
+  <!--Home-->
+  <bannerName name="Home1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Home2">
+    <numberOfBanners>3</numberOfBanners>
+    <banners showHeader="true">
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/11.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=True&amp;PageName=Home2&amp;PageId=0&amp;UserId=1</link>
+        <PageNames>Home2</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/11.jpg</virtualmobilepath1>
+        <BannerId>1</BannerId>
+      </banner>
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/2242.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=True&amp;PageName=Home2&amp;PageId=0&amp;UserId=1</link>
+        <PageNames>Home2</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/2242.jpg</virtualmobilepath1>
+        <BannerId>2</BannerId>
+      </banner>
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/2253.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=True&amp;PageName=Home2&amp;PageId=0&amp;UserId=1</link>
+        <PageNames>Home2</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/2253.jpg</virtualmobilepath1>
+        <BannerId>3</BannerId>
+      </banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Home3">
+    <numberOfBanners>2</numberOfBanners>
+    <banners showHeader="true">
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/11.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=False&amp;PageName=Home3&amp;PageId=0&amp;UserId=2</link>
+        <PageNames>Home3</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/11.jpg</virtualmobilepath1>
+        <BannerId>1</BannerId>
+      </banner>
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/2264.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=False&amp;PageName=Home3&amp;PageId=0&amp;UserId=2</link>
+        <PageNames>Home3</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/2264.jpg</virtualmobilepath1>
+        <BannerId>4</BannerId>
+      </banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Home4">
+    <numberOfBanners>3</numberOfBanners>
+    <banners showHeader="true">
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/23210.jpeg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=False&amp;PageName=Home4&amp;PageId=0&amp;UserId=3</link>
+        <PageNames>Home4</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/23210.jpeg</virtualmobilepath1>
+        <BannerId>10</BannerId>
+      </banner>
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/2253.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=False&amp;PageName=Home4&amp;PageId=0&amp;UserId=3</link>
+        <PageNames>Home4</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/2253.jpg</virtualmobilepath1>
+        <BannerId>3</BannerId>
+      </banner>
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/2319.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=False&amp;PageName=Home4&amp;PageId=0&amp;UserId=3</link>
+        <PageNames>Home4</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/2319.jpg</virtualmobilepath1>
+        <BannerId>9</BannerId>
+      </banner>
+    </banners>
+  </bannerName>
+  <!--Service-->
+  <bannerName name="Services1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Services2">
+    <numberOfBanners>2</numberOfBanners>
+    <banners showHeader="true">
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/2253.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=False&amp;PageName=Services2&amp;PageId=1&amp;UserId=1</link>
+        <PageNames>Services2</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/2253.jpg</virtualmobilepath1>
+        <BannerId>3</BannerId>
+      </banner>
+      <banner>
+        <name>New</name>
+        <body>Lorem Ipsum</body>
+        <imagePath>../StoreData/BannerNew/2264.jpg</imagePath>
+        <link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=False&amp;PageName=Services2&amp;PageId=1&amp;UserId=1</link>
+        <PageNames>Services2</PageNames>
+        <virtualmobilepath1>http://fritziespetcarepros.com/StoreData/MobileBannerNew/2264.jpg</virtualmobilepath1>
+        <BannerId>4</BannerId>
+      </banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Services3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Services4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--Service Detail -->
+  <bannerName name="ServiceD1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="ServiceD2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="ServiceD3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="ServiceD4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--Product-->
+  <bannerName name="Product1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Product2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Product3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Product4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--Flea-->
+  <bannerName name="Flea1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Flea2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Flea3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Flea4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--Fritzy Friend-->
+  <bannerName name="Friend1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Friend2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Friend3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Friend4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--About Us-->
+  <bannerName name="AboutUs1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="AboutUs2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="AboutUs3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="AboutUs4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--Contact Us-->
+  <bannerName name="ContactUs1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="ContactUs2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="ContactUs3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="ContactUs4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--Registration-->
+  <bannerName name="Registration1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Registration2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Registration3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Registration4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--News Details-->
+  <bannerName name="News Details1">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="News Details2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="News Details3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="News Details4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <!--Default -->
+  <bannerName name="Default1">
+    <numberOfBanners>4</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Default2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Default3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Default4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Cat_FritzyFreshSpa1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Cat_FritzyFreshSpa2">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Cat_FritzyFreshSpa3">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+  <bannerName name="Cat_FritzyFreshSpa4">
+    <numberOfBanners>0</numberOfBanners>
+    <banners showHeader="true">
+    </banners>
+  </bannerName>
+</rotator>

@@ -1,0 +1,65 @@
+﻿
+/* ..........................................Style for wrapper and topnavigation.................................... */
+
+* html #mainHeaderContent{margin:0 0 0 16px; width:960px; height:282px;}
+
+* html #topnavigation { width:960px; float:left; height:32px; margin:2px 0 0 0; padding:0px 0 0 0;}
+/* .........................................................................................................*/
+#innerRightPannel{float:left; margin:0 0 0 5px; padding:0;width:235px;  border:0px solid #f00;}
+
+*html #innerRightPannel{float:left; margin:0 0 0 10px; padding:0;width:230px;  border:0px solid #f00;}
+ 
+.ieRight{width:240px; border:0px solid #f00; margin:0 0 0 15px !important;}
+*html .ieRight{width:240px; border:0px solid #ff0; margin:0 0 0 0px !important;}
+ 
+* html .img1{ margin:0; padding:0 0 0 0px;}
+
+*:first-child+html .img{width:256px; margin:0; padding:0 0 0 10px;}
+	
+* html .img{ margin:0; padding:0;}
+
+#innerLeftPannel{ float:left; margin:0; padding:0 0 0 0; width:658px; border:0px solid #f00;  }
+
+#mainInnerContent{ width:933px; margin:-10px 0 0 -5px; padding:10px 7px 0 20px; float:left;}
+
+* html #mainInnerContent{ width:933px; margin:-10px 0 0 -5px; padding:10px 7px 0 20px; float:left;}
+
+#mainBottomImg{ background:url(images/mainBottomImg.jpg) no-repeat bottom; width:960px; height:6px; margin:0; padding:0;}
+
+* html .locationServiced { float:right; width:232px; height:59px; background:url(images/location_serviced_bg.gif) no-repeat 0px 0 !important; background-position:0 0 !important; padding:41px 5px 0 -10px; border:0px solid; }
+
+.locationServiced { float:right; width:236px; height:59px; background:url(images/location_serviced_bg.gif) no-repeat 7px 0; padding:41px 19px 0 0 !important;  *padding:41px 19px 0 0 !important; border:0px solid; }
+
+* html .sugesstionBox {  width:241px; height:93px; display:block; padding:0; margin:0 0 0 0px; font-size:11px; color:#604422; }
+
+
+.loginBtn{margin:8px 0 0 0px;}
+
+.NewsTitle{ position:absolute; margin:10px 0 0 -668px; z-index:100;}
+
+.regFormTop{ background:url(Images/regBgTop.jpg) no-repeat bottom; width:919px; height:8px; margin:0; padding:0;}
+
+#suggestionpopup{background:#897552 url(images/popupBg.jpg) repeat-x 0 0; width:410px; height:300px; min-width:380px; min-height:300px; margin:0; padding:0; border:2px solid #ffffff;}
+
+.popupleft{ float:left; width:145px; margin:0; padding:77px 0 0 0; }
+.popupright{ float:left; width:255px; min-width:235px;  margin:0; padding:0; }
+
+.popupright .textArea{width:198px; height:68px; border:1px solid #6d5c45; font-family:Verdana; font-size:11px; color:#939393; margin:0; padding:0;}
+.popupright .textField{ width:198px; height:17px; border:1px solid #6d5c45; font-family:Verdana; font-size:11px; color:#939393; margin:0; padding:0;}
+.popupright span{ color:#604422; font-family:Verdana; font-size:11px; margin:0;padding:0;}
+.popupright  .closewindow{ text-align:right; margin:0; padding:0;}
+
+.ServicesinnerPannelRight{width:310px; margin:0 0 0 5px; padding:0 0 0 0px;float:left;}
+*:first-child+html .ServicesinnerPannelRight{width:320px; margin:0 0 0 5px; padding:0 0 0 10px;float:left;}
+
+*:first-child+html .tabsforIE{border:0px solid #f00; display:block; position:absolute;}
+* html .tabsforIE{border:0px solid #ff0; display:block; z-index:100px;}
+
+.ServicesinnerPannelLeft{width:300px; margin:0; padding:0 15px 0 0; float:left;  border:0px solid #f00;}
+.ServicesinnerPannelRight{width:300px; margin:0 0 0 0px; padding:0 0 0 0px;float:right !important;  border:0px solid #f00;}
+.ServicesinnerMidPannel{margin: 50px 0px 0 0; padding:0; float:left; border:0px solid #f00;}
+
+.topDatalistDiv{ width:310px; float:left; margin:0 0 0px 0; height:190px;  }
+.left1{width:90px; margin:0; padding:11px 6px 0 6px; float:left; text-align:center; }
+.servicesright1{width:180px; margin:0; padding:14px 0 0 10px; float:left;}
+

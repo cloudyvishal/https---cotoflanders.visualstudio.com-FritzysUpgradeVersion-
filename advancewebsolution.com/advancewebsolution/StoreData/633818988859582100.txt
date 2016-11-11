@@ -1,0 +1,191 @@
+BreedName,Status,Pet
+Affenpinscher,Active,Dog
+Afghan,Active,Dog
+Airedale Terrier,Active,Dog
+Akita,Active,Dog
+Alaskan Klee Kai,Active,Dog
+Alaskan Malamute,Active,Dog
+American Eskimo,Active,Dog
+American Pit Bill Terrier,Active,Dog
+American Strarford,Active,Dog
+Austrailian Shepheard Mix,Active,Dog
+Australian Cattle Dog,Active,Dog
+Australian Shepherd,Active,Dog
+Australian Terrier,Active,Dog
+Basenji,Active,Dog
+Basset Hound,Active,Dog
+Beagle,Active,Dog
+Bearded Collie,Active,Dog
+Bedlington Terrier,Active,Dog
+Belgian Malinois,Active,Dog
+Belgian Sheepdog,Active,Dog
+Bernese Mountain Dog,Active,Dog
+Bichon Frise,Active,Dog
+Bichon Mix,Active,Dog
+Black Coated Retriever,Active,Dog
+Bloodhound,Active,Dog
+Border Collie,Active,Dog
+Border Terrier,Active,Dog
+Borzoi,Active,Dog
+Boston Terrier,Active,Dog
+Bouvier de Flandres,Active,Dog
+Boxer,Active,Dog
+Boykin Spaniel,Active,Dog
+Briard,Active,Dog
+Brittany Spaniel,Active,Dog
+Brussels Griffon,Active,Dog
+Bull Terrier,Active,Dog
+Bulldog,Active,Dog
+Bullmastiff,Active,Dog
+Cairn Terrier,Active,Dog
+"Cat, Long Hair",Active,Dog
+"Cat, Short Hair",Active,Dog
+Catahoula Leopard,Active,Dog
+Cavalier King Charles Spaniel,Active,Dog
+Chesapeake Bay Retriever,Active,Dog
+Chihuahua,Active,Dog
+Chihuahua ,Active,Dog
+Chihuahua Long Haired,Active,Dog
+Chinese Crested (Powder Puff),Active,Dog
+Chow Chow,Active,Dog
+Clumber Spaniel,Active,Dog
+Cock-A-Poo,Active,Dog
+Cocker Spaniel,Active,Dog
+Collie (Rough Coat),Active,Dog
+Collie (Smooth Coat),Active,Dog
+Coon Hound ,Active,Dog
+Corgi,Active,Dog
+Coton De Tulear,Active,Dog
+Dachshund,Active,Dog
+Dachshund (Longhaired),Active,Dog
+Dachshund (Smooth Coat),Active,Dog
+Dachshund (Wirehaired),Active,Dog
+Dalmatian,Active,Dog
+Dandy Dinmont,Active,Dog
+Dingo,Active,Dog
+Doberman Pinscher,Active,Dog
+English Creme Retriever,Active,Dog
+English Pointer Mix,Active,Dog
+English Setter,Active,Dog
+Field Spaniel,Active,Dog
+Flat Coat Retriever,Active,Dog
+Fox Hound,Active,Dog
+Fox Terrier,Active,Dog
+French Bulldog,Active,Dog
+German Pinscher,Active,Dog
+German Pointer Shorthaired,Active,Dog
+German Pointer Wirehaired,Active,Dog
+German Shepherd,Active,Dog
+German Shorthair,Active,Dog
+Glen of Immal Terrier,Active,Dog
+Golden Doodle,Active,Dog
+Golden Retriever,Active,Dog
+Gordon Setter,Active,Dog
+Grand Basset Griffon Vendeen,Active,Dog
+Great Dane,Active,Dog
+Great Pyrenees,Active,Dog
+Greater Swiss Mtn. Dog,Active,Dog
+Greyhound,Active,Dog
+Harrier,Active,Dog
+Havanese,Active,Dog
+Husky,Active,Dog
+Irish Setter,Active,Dog
+Irish Terrier,Active,Dog
+Irish Water Spaniel ,Active,Dog
+Irish Wolfhound,Active,Dog
+Italian Greyhound,Active,Dog
+Jack Russell Terrier (Rough),Active,Dog
+Jack Russell Terrier (Smooth),Active,Dog
+Japanese Chin,Active,Dog
+Jindo,Active,Dog
+Keeshond,Active,Dog
+Kerry Blue Terrier,Active,Dog
+Kettle Dog,Active,Dog
+Lab Mix,Active,Dog
+Labradoodle,Active,Dog
+Labrador Retriever,Active,Dog
+Lancashire Heeler,Active,Dog
+Leonberger,Active,Dog
+Lhasa Apso,Active,Dog
+Lhaso Poo,Active,Dog
+Malamute,Active,Dog
+Maltese,Active,Dog
+maltese ,Active,Dog
+Malti-poo,Active,Dog
+Manchester Terrier,Active,Dog
+Mastiff,Active,Dog
+Mini Pincher,Active,Dog
+Mix - Large,Active,Dog
+Mix - Medium,Active,Dog
+Mix - Small,Active,Dog
+Newfoundland,Active,Dog
+Norfolk Terrier,Active,Dog
+Norwegian Elkhound,Active,Dog
+Norwich Terrier,Active,Dog
+Nova Scotia Duck Trolling Retriever,Active,Dog
+Old English Sheepdog,Active,Dog
+Papillon,Active,Dog
+Parson Russell Terrier,Active,Dog
+Patterdale Terrier,Active,Dog
+Peek-a-poo,Active,Dog
+Pekingnese,Active,Dog
+Petit Basset Griffon Vendeen ,Active,Dog
+Pharaoh Hound,Active,Dog
+Pit Bull,Active,Dog
+Pit Bull mix,Active,Dog
+Pointer,Active,Dog
+Polish Lowland Sheepdog,Active,Dog
+Pomeranian,Active,Dog
+Poodle:Miniature,Active,Dog
+poodle:Miniature ,Active,Dog
+Poodle:Standard,Active,Dog
+"Poodle:tea cup, toy",Active,Dog
+Poodlepointer,Active,Dog
+Portugese Water Dog,Active,Dog
+Pug,Active,Dog
+Rat Terrier,Active,Dog
+Red Australian Heele,Active,Dog
+Retriever mix,Active,Dog
+Rhodesian Ridgeback,Active,Dog
+Rottweiler,Active,Dog
+Russian Black Terrier,Active,Dog
+Saluki,Active,Dog
+Samoyed,Active,Dog
+Schipperke,Active,Dog
+Schnauzer:Giant,Active,Dog
+Schnauzer:Miniature,Active,Dog
+Schnauzer:Standard,Active,Dog
+Schnoodle,Active,Dog
+Scottish Terrier (Scottie),Active,Dog
+Sharpei,Active,Dog
+Sheepdog,Active,Dog
+Shepherd Mix,Active,Dog
+Shetland Sheepdog (Sheltie),Active,Dog
+Shiba Inu,Active,Dog
+Shih Tzu,Active,Dog
+Shih Tzu ,Active,Dog
+Shiloh Shepherd,Active,Dog
+Siberian Husky,Active,Dog
+Silky Terrier,Active,Dog
+Silver Lab,Active,Dog
+Snoodle,Active,Dog
+Spanish Water Dog,Active,Dog
+Spitz,Active,Dog
+Springer Spaniel English,Active,Dog
+Springer Spaniel Mix,Active,Dog
+Springer Spaniel Welsh,Active,Dog
+St. Bernard,Active,Dog
+Staffordshire Terrier,Active,Dog
+Terrier Mix,Active,Dog
+Terrier Mix ,Active,Dog
+Tibetan Spaniel,Active,Dog
+Tibetan Terrier,Active,Dog
+Vizsla,Active,Dog
+Weimaraner,Active,Dog
+Welsh Terrier,Active,Dog
+West Highland Terrier (Westie),Active,Dog
+Wheaton Terrier,Active,Dog
+Whippet,Active,Dog
+Wire Fox Terrier,Active,Dog
+Wire Hair Terrier,Active,Dog
+Yorkshire Terrier,Active,Dog

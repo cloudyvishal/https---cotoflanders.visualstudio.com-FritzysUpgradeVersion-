@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rotator isRandom="true">
+  <bannerTime>5</bannerTime>
+  <!--Home-->
+  <bannerName name="Home1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Home1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Home2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Home2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Home3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Home3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Home4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Home4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--Service-->
+  <bannerName name="Services1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Services1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Services2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Services2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Services3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+     <banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Services3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Services4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Services4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--Service Detail -->
+  <bannerName name="ServiceD1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>ServiceDetail1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="ServiceD2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>ServiceDetail2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="ServiceD3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>ServiceDetail3</PageNames>
+		</banner>
+	</banners>
+</bannerName>
+<bannerName name="ServiceD4">
+	<numberOfBanners>1</numberOfBanners>
+	<banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>ServiceDetail4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--Product-->
+  <bannerName name="Product1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Product1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Product2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Product2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Product3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Product3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Product4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Product4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--Flea-->
+  <bannerName name="Flea1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Flea1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Flea2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Flea2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Flea3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Flea3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Flea4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Flea4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--Fritzy Friend-->
+  <bannerName name="Friend1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Friend1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Friend2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Friend2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Friend3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Friend3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Friend4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Friend4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--About Us-->
+  <bannerName name="AboutUs1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>AboutUs1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="AboutUs2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>AboutUs2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="AboutUs3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>AboutUs3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="AboutUs4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>AboutUs4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--Contact Us-->
+  <bannerName name="ContactUs1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>ContactUs1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="ContactUs2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>ContactUs2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="ContactUs3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>ContactUs3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="ContactUs4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>ContactUs4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--Registration-->
+  <bannerName name="Registration1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Registration1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Registration2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Registration2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Registration3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Registration3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="Registration4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>Registration4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <!--News Details-->
+  <bannerName name="News Details1">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>NewsDetail1</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="News Details2">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>NewsDetail2</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="News Details3">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+      <banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>NewsDetail3</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+  <bannerName name="News Details4">
+    <numberOfBanners>1</numberOfBanners>
+    <banners showHeader="true">
+		<banner>
+			<name>New</name>
+			<body>Lorem Ipsum</body>
+			<imagePath>../StoreData/BannerNew/6banner12.jpg</imagePath>
+			<link>http://fritziespetcarepros.com/PrintCoupon1.aspx?CouponID=6banner12.jpg&amp;PageName=Home&amp;PageId=0&amp;UserId=0</link>
+			<PageNames>NewsDetail4</PageNames>
+		</banner>
+    </banners>
+  </bannerName>
+</rotator>

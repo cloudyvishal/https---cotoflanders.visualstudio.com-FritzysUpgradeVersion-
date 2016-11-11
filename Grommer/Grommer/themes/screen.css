@@ -1,0 +1,793 @@
+﻿
+/* ---------------------------- SCREEN CSS --------------------------- */
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #4f3d29;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: Verdana;
+    background: #8D6C4B url(../images/bodybg.jpg) no-repeat 50% 0 !important;
+}
+
+.maindiv
+{
+    color: #4f3d29;
+    font-weight: normal;
+    font-size: 0.813em;
+    font-family: Verdana;
+    background: #8D6C4B;
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+/* GENERALISATION */
+h1
+{
+    font-weight: bold; /*font-size:0.813em;*/
+    font-size: 1.1em;
+    color: #014660;
+    line-height: 1.9em;
+    height: 20px;
+}
+h2
+{
+    font-weight: bold; /*font-size:0.813em;*/
+    font-size: 1.1em;
+    color: #014660;
+}
+
+a
+{
+    color: #4f3d29;
+    font-size: 0.813em;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+div, p, table, tr, td, h1, h2, h3, h4, h5, h6, ul, li, ol
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* LAYOUT */
+.contentainer
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.maincontainer
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #8D6C4B url(../images/bodybgnew.jpg) no-repeat 50% 0;
+    height: 215px;
+}
+
+.containwrapper
+{
+    float: left;
+    width: 98%;
+    margin: 0;
+}
+.header
+{
+    width: 100%;
+    float: left;
+}
+.top_tl
+{
+    background: url(../images/top_tl.jpg) 0 0 no-repeat;
+    width: 100%;
+    float: left;
+}
+.top_tr
+{
+    background: url(../images/top_tr.jpg) 100% 0 no-repeat;
+    width: 100%;
+    float: left;
+}
+.top_t
+{
+    background: #009ed9;
+    width: 100%;
+    float: left;
+}
+
+.top_content
+{
+    padding: 3px 0 0 10px;
+    height: 25px;
+    width: 100%;
+    float: left;
+}
+
+/* CONTENT */
+.content
+{
+    width: 100%;
+    float: left;
+    background: #decfb9;
+}
+/* corners */
+.bl
+{
+    background: url(../images/bl.jpg) 0 100% no-repeat;
+    width: 100%;
+    float: left;
+}
+.br
+{
+    background: url(../images/br.jpg) 100% 100% no-repeat;
+    width: 100%;
+    float: left;
+}
+.tl
+{
+    background: url(../images/tl.jpg) 0 0 no-repeat;
+    width: 100%;
+    float: left;
+}
+.tr
+{
+    background: url(../images/tr.jpg) 100% 0 no-repeat;
+    padding: 5px 0;
+    width: 100%;
+    float: left;
+}
+/* bg color */
+.t
+{
+    background: url(../images/dot.jpg) 0 0 repeat-x;
+    width: 100%;
+    float: left;
+}
+.b
+{
+    background: url(../images/dot.jpg) 0 100% repeat-x;
+    width: 100%;
+    float: left;
+    font-weight: 700;
+}
+.l
+{
+    background: url(../images/dot.jpg) 0 0 repeat-y;
+    width: 100%;
+    float: left;
+}
+.r
+{
+    background: url(../images/dot.jpg) 100% 0 repeat-y;
+    width: 100%;
+    float: left;
+}
+/* corners */
+
+/* .contentbg{ background:#decfb9; padding:5px 10px; width:70%; float:left;} */
+
+.contentbg
+{
+    background: #decfb9;
+    padding: 5px 10px;
+    float: left;
+}
+
+/* LOGIN */
+.logincontainer
+{
+    width: 24% !important;
+    margin: 0 auto;
+}
+.logindiv
+{
+    padding: 0 0px;
+    width: 100%;
+}
+.logindiv .divrow
+{
+    width: 100%;
+    padding: 5px 0;
+    float: left;
+}
+.logindiv .divcell_left
+{
+    float: left;
+    width: 15%;
+    text-align: left;
+    padding-right: 18px;
+    vertical-align: top;
+}
+
+.logindiv .divcell_right
+{
+    float: left;
+    width: 51%;
+}
+
+.lbl
+{
+    color: #4e3c28;
+    font-weight: bold;
+    font-size: 0.813em;
+}
+
+.txt
+{
+    background: #fff;
+    border: 1px solid #90734b;
+    height: 14px;
+    font-size: 0.813em;
+}
+.txt150
+{
+    width: 180px;
+    background: #fff;
+    border: 1px solid #90734b;
+    height: 14px;
+    font-size: 0.813em;
+}
+.divrow
+{
+    width: 98%;
+    padding: 3px 0;
+}
+.btn
+{
+    background: #83613c url(../images/btnbg.jpg) repeat-x 0 0; /*83613c*/
+    color: #573804 /*f3e9de*/;
+    padding: 2px 0 2px 0;
+    border: 1px solid #b38d4f;
+    font-size: 0.820em;
+    font-weight: bold;
+}
+.btnConfirm
+{
+    background: #decfb9;
+    color: #decfb9;
+}
+.btn_New
+{
+    background: #83613c url(../images/btnbg.jpg) repeat-x 0 0; /*83613c*/
+    color: #573804 /*f3e9de*/;
+    padding: 2px 0 2px 0;
+    border: 1px solid #b38d4f;
+    font-size: 0.820em;
+    font-weight: bold;
+    width: 110px;
+}
+.link
+{
+    color: #4f3d29;
+    line-height: 1.5em;
+    font-size: 0.73em;
+    text-decoration: underline;
+}
+
+/* MASTER PAGE */
+.headercontent
+{
+    padding: 6px 5px 5px 5px;
+    font-size: 0.95em;
+    width: 98%;
+    float: left;
+}
+.headLeft
+{
+    width: 98%;
+    float: left;
+    height: 20px;
+    text-align: right;
+}
+.headRight
+{
+    width: 99%;
+    float: right;
+    text-align: left;
+    color: #ffffff;
+}
+
+.headRight a
+{
+    color: #FAFAFA;
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+    font-size: 11px;
+}
+.headRight a:hover
+{
+    text-decoration: underline;
+}
+
+/* OPERATIONS PAGE */
+.normal
+{
+    font-size: 0.85em;
+    color: #2F231C;
+}
+.big
+{
+    color: #2F231C;
+    font-weight: bold;
+    font-size: 0.813em;
+}
+.innercontent
+{
+    width: 950px !important;
+    float: left;
+    margin: 5px 0 0 0;
+}
+.innercontent .divrow {
+    float: left;
+    padding: 3px 0;
+    width: 100%;
+}
+.innercontent .summary
+{
+    width: 80%;
+    padding: 5px;
+    float: left;
+    border: 1px solid #333;
+    background: #cccccc;
+    margin-left: 6%;
+}
+.innercontent .divcell_left
+{
+    float: left;
+    width: 35%;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.innercontent .divcell_left1 {
+    float: left;
+    padding-right: 5px;
+    text-align: right;
+    vertical-align: top;
+    width: 47%;
+}
+.innercontent .divcell_left2
+{
+    float: left;
+    width: 36%;
+    text-align: left;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.innercontent .divcell_left3
+{
+    float: left;
+    width: 38%;
+    text-align: left;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.innercontent .divcell_left .lbl
+{
+    color: #4e3c28;
+    font-weight: normal;
+    font-size: 0.813em;
+    text-align: right;
+    line-height: 15px;
+}
+.innercontent .divcell_right
+{
+    float: right;
+    width: 63%;
+}
+.innercontent .divcell_right_two
+{
+    float: right;
+    width: 60%;
+}
+
+.multitxt
+{
+    background: #fff;
+    border: 1px solid #90734b;
+    height: 44px;
+    font-size: 1em;
+}
+.txt230
+{
+    width: 230px;
+}
+.txt117
+{
+    width: 210px;
+}
+.spacer10
+{
+    height: 5px;
+    clear: both;
+    border-bottom: 1px dotted #49382e;
+    margin: 0 0 5px 0;
+}
+.radiobtn
+{
+    vertical-align: top;
+    font-size: 0.813em;
+    width: 105px;
+}
+.radiobtn tr td
+{
+    padding: 0 15px 0 0;
+}
+.radiobtn input
+{
+    vertical-align: middle;
+    margin: 0 0px;
+}
+
+.bottombtn
+{
+    text-align: right;
+    padding-right: 10px;
+    width: 550px;
+}
+.bottombtnNew
+{
+    text-align: center;
+    padding-right: 10px;
+    width: 335px;
+}
+
+/* INVENTORY PAGE */
+.txt90
+{
+    width: 190px !important;
+}
+.inventory
+{
+}
+.inventory .divcell_left
+{
+    float: left;
+    width: 35%;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.inventory .divcell_right
+{
+    float: left;
+    width: 60%;
+}
+
+/* MESSAGES */
+.errorTable
+{
+    background: #f3dfdd;
+    width: 100%;
+    border: 1px solid #bd1104;
+    padding: 2px 5px;
+    color: #bd1104;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.errorTable2
+{
+    background: #f3dfdd;
+    width: 65%;
+    border: 1px solid #bd1104;
+    padding: 2px 5px;
+    color: #bd1104;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 0 0 25px 100px;
+}
+
+.successTable
+{
+    background: #d7edd7;
+    width: 100%;
+    border: 1px solid #237421;
+    padding: 2px 5px;
+    color: #237421;
+    font-weight: bold;
+    margin: 20px 0 25px 0;
+}
+
+/* FOOTER PAGE */
+.footer
+{
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+    padding: 2px 0 5px 0;
+    background: #decfb9;
+}
+.fright
+{
+}
+.fleft
+{
+    text-align: center;
+}
+.fleft a
+{
+    font-size: 11px;
+    color: #2f231c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.fleft a:hover
+{
+    text-decoration: none;
+}
+
+
+/* DASHBOARD PAGE */
+.appnt_tabs
+{
+    margin: 20px 0 20px 20px;
+}
+.appnt_lbl
+{
+    color: #4e3c28;
+    font-weight: bold;
+    font-size: 0.813em;
+}
+.appnt_detail
+{
+    font-size: 0.813em;
+    width: 280px;
+}
+
+.appnt_tabs ul
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.appnt_tabs ul li
+{
+    list-style: none;
+    margin: 5px 0;
+    background: #e5daca;
+    padding: 2px 10px;
+    border: 1px solid #997349;
+}
+
+a.appnt_link
+{
+    color: #7a5e40;
+    font-size: 1em;
+    padding: 4px 10x;
+    margin: 0 0 5px 5px;
+    background: #e5daca;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.appnt_link:hover
+{
+    color: #4e3c28;
+    font-size: 1em;
+    padding: 4px 10x !important;
+    background: #e5daca;
+    margin: 0 0 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.error_msg
+{
+    height: 12px;
+    font-size: 11px;
+}
+.go_btn
+{
+    text-align: center;
+    margin: 14px 0 8px 0;
+}
+.avail
+{
+    font-size: 12px;
+    width: 85% !important;
+    margin: 0 /*0 0 100px*/;
+    padding: 5px;
+}
+
+.not_avail
+{
+    font-size: 12px;
+    width: 65% !important;
+    margin: 0 /*0 0 100px*/;
+    padding: 5px;
+}
+#divError
+{
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 11px;
+}
+
+/* ============ Stats Summary ============ */
+
+.divrow2
+{
+    width: 100%;
+    padding: 3px 0;
+    float: left;
+    font-size: 11px;
+    clear: both;
+}
+.divrow2 .div_left
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    padding-right: 5px;
+    vertical-align: top;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow2 .div_mid
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow2 .div_right
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+
+.divrow2 .div_left1, .divrow .div_left2
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    padding-right: 5px;
+    vertical-align: top;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow2 .div_mid1, .divrow .div_mid2
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow2 .div_right1, .divrow .div_right2
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+
+.divrow2 .div_first
+{
+    float: left;
+    width: 115px;
+    text-align: center;
+    padding-right: 5px;
+    vertical-align: top;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow2 .div_second
+{
+    float: left;
+    width: 115px;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow2 .div_third
+{
+    float: left;
+    width: 115px;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow2 .div_fourth
+{
+    float: left;
+    width: 115px;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+
+.div_content
+{
+    float: left;
+    width: 105px;
+    margin-top: -3px;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 4px 5px 5px 5px;
+    border-top: none;
+    min-height: 20px;
+}
+.stat_content
+{
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.contentbg2
+{
+    background: #decfb9;
+    padding: 5px 10px;
+    width: 80%;
+    float: left;
+}
+.forsummary
+{
+    width: 380px;
+    margin: 0 auto;
+}
+
+.pet_time
+{
+    background: #DECFB9;
+    border: none;
+}
+.error_msg2
+{
+    margin-left: 210px;
+    font-size: 11px;
+}
+
+table.amountDetailTbl
+{
+    width: 97%;
+    border: 1px solid #d3b493;
+}
+table.amountDetailTbl th
+{
+    background: #8b6c4d;
+    color: #decfba !important;
+    padding: 5px;
+}
+table.amountDetailTbl td
+{
+    border: 1px solid #d3b493;
+    text-align: center;
+}
+
+.calendar a
+{
+    text-decoration: none;
+}
+.details_list td
+{
+    padding: 0 0 10px 0;
+    vertical-align: top;
+}
+.date_box
+{
+    padding: 10px 0;
+}
+.mail_table td
+{
+    padding: 4px 0;
+}

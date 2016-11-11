@@ -1,0 +1,36 @@
+<%@ Page Language="C#" MasterPageFile="~/Admin/AdminMaster.master" AutoEventWireup="true" CodeFile="ContactUsDetail.aspx.cs" Inherits="Admin_ContactUsDetail" Title="Contact Us Detail" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div class="innerContent">
+
+<div class="pageTitle">
+                    <h2>View Contact Us Detail</h2>
+                </div>
+<table  class="adduserTable" cellpadding="6" cellspacing="0" >
+    
+    <tr>
+        <td style="width:10%;"> First Name : </td>
+        <td> <asp:Label ID="lblFName" runat="server" Text=""></asp:Label></td>
+    </tr>
+    <tr>
+        <td> Last Name : </td>
+        <td> <asp:Label ID="lblLName" runat="server" Text=""></asp:Label></td>
+    </tr>
+    <tr>
+        <td> Email :</td>
+        <td><asp:Label ID="lblEmail" runat="server" Text=""></asp:Label></td>
+    </tr>
+    <tr>
+        <td>Phone :</td>
+        <td><asp:Label ID="lblPhone" runat="server" Text=""></asp:Label></td>
+    </tr>
+    <tr>
+        <td>Message : </td>
+        <td><asp:Label ID="lblMessage" runat="server" Text=""></asp:Label></td>
+    </tr>
+     
+  
+</table>
+<asp:Button ID="btnBack" runat="server" Text="Back" ToolTip="Back" PostBackUrl="~/Admin/ContactUs.aspx" CssClass="btnBg"/>
+</div>
+</asp:Content>
+

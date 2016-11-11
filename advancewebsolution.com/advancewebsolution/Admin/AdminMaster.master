@@ -1,0 +1,273 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="Admin_AdminMaster" Codebehind="AdminMaster.master.cs"  %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link href="CSS/Admin.css" rel="Stylesheet" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <script  type="text/javascript" language="javascript" src="../../js/jquery.js"></script>
+    <script language="javascript" src="../../IE9.js" type="text/javascript"></script>
+     <link href="ie.css" type="text/css" rel="stylesheet" />
+    <!--[if IE] >
+    <link href="ie.css" type="text/css" rel="stylesheet" />
+     
+    <![endif]-->
+     <script language="javascript" type="text/javascript">
+        $(window).bind('contextmenu', false, false);
+    </script>
+    <script type="text/javascript">
+        //allow whole numbers
+        function IntegerNumbers(e) {
+            var unicode = e.charCode ? e.charCode : e.keyCode
+            if (unicode != 8 && unicode != 9) { //if the key isn't the backspace key (which we should allow)
+                if (unicode < 48 || unicode > 57) //if not a number
+                    return false //disable key press
+            }
+        }
+        //allow decimal numbers
+        function decimalIntegerNumbers(evt, element) {
+
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (
+                // (charCode != 45 || $(element).val().indexOf('-') != -1) &&      // “-” CHECK MINUS, AND ONLY ONE.
+                (charCode != 46 || $(element).val().indexOf('.') != -1) &&      // “.” CHECK DOT, AND ONLY ONE.
+                (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+    </script>
+    <script type="text/javascript" language="javascript">
+        stuHover = function () {
+            var cssRule;
+            var newSelector;
+            for (var i = 0; i < document.styleSheets.length; i++)
+                for (var x = 0; x < document.styleSheets[i].rules.length; x++) {
+                    cssRule = document.styleSheets[i].rules[x];
+                    if (cssRule.selectorText.indexOf("LI:hover") != -1) {
+                        newSelector = cssRule.selectorText.replace(/LI:hover/gi, "LI.iehover");
+                        document.styleSheets[i].addRule(newSelector, cssRule.style.cssText);                
+                    }
+                }
+            var getElm = document.getElementById("nav").getElementsByTagName("LI");
+            for (var i = 0; i < getElm.length; i++) {
+                getElm[i].onmouseover = function () {
+                    this.className += " iehover";
+                }
+                getElm[i].onmouseout = function () {
+                    this.className = this.className.replace(new RegExp(" iehover\\b"), "");
+                }
+            }
+        }
+        if (window.attachEvent) window.attachEvent("onload", stuHover);
+    </script>
+
+    <script src="../../js/stuHover.js" type="text/javascript" language="javascript"></script>
+
+   
+
+</head>
+<body oncontextmenu="return false;">
+    <form id="form1" runat="server" autocomplete="off">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <%--<asp:PlaceHolder ID="PhHeader" runat="server"></asp:PlaceHolder>--%>
+        <div class="header">
+            <div class="headerContent">
+                <div class="logo">
+                    <%--<img src="../images/logo.jpg" alt="" />--%>
+                    <a href="/Admin/AdminHome.aspx" class="for_logo"><asp:Image ID="sad" runat="server" ImageUrl="~/Admin/images/logo.jpg" AlternateText="Fritzy's" /></a>
+                    <div class="topLinksDiv">Welcome, <span><asp:Label ID="lblUsername" runat="server"></asp:Label></span> | <asp:HyperLink ID="lnkLogout" runat="server" Text="Logout" ToolTip="Logout"></asp:HyperLink>
+                    </div>
+                </div>
+                <div class="topnavigation">
+                    <!-- top navigation start here -->
+                    <div class="topnav">
+                        <div id="outer">
+                            <ul id="nav">
+                                <%--Home--%>
+                                <li class="top">
+                                    <asp:HyperLink ID="lnkAdminHome" runat="server" Text="HOME" ToolTip="HOME" CssClass="top_link"></asp:HyperLink></li>
+                                <%--Member --%>
+                                <li class="top">
+                                    <asp:HyperLink ID="lnkMember" runat="server" Text="MEMBERS" ToolTip="MEMBERS" CssClass="top_link"></asp:HyperLink>
+                                    <ul class="sub">
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageMembers" runat="server" Text="Manage Members" ToolTip="Manage Members"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageAppointment" runat="server" Text="Manage Appointments"
+                                                ToolTip="Manage Appointments"></asp:HyperLink></li>
+                                    </ul>
+                                </li>
+                                <%--3.	Content Manager --%>
+                                <li class="top">
+                                    <asp:HyperLink ID="lnkSiteManager" runat="server" Text="CONTENT MANAGER" ToolTip="CONTENT MANAGER"
+                                        CssClass="top_link"></asp:HyperLink>
+                                    <ul class="sub">
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageHomePageService" runat="server" Text="Manage HomePage Services"
+                                                ToolTip="Manage HomePage Services"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageFTService" runat="server" Text="Manage Flea & Tick Services"
+                                                ToolTip="Manage Flea & Tick Services"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkNews" runat="server" Text="About Us Page" ToolTip="About Us Page"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkServices" runat="server" Text="Services Page" ToolTip="Services Page"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkFriends" runat="server" Text="Fritzy's Friends Page" ToolTip="Fritzy's Friends Page"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkProducts" runat="Server" Text="Products Page" ToolTip="Products Page"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkVisitorVan" runat="Server" Text="Visit Our Van Page" ToolTip="Visit Our Van Page"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkZipCode" runat="server" Text="Locations Serviced Page" ToolTip="Locations Serviced Page"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkStaticeContent" runat="server" Text="Manage Web Pages" ToolTip="Manage web pages"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkMeta" runat="server" Text="Manage Metatags" ToolTip="Manage Metatags"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkImageManager" runat="server" Text="Manage Gift Card" ToolTip="Manage Images"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkEmail" runat="server" Text="Manage Email" ToolTip="Manage Email"></asp:HyperLink></li>
+                                    </ul>
+                                </li>
+                                <%--Feed back --%>
+                                <li class="top">
+                                    <asp:HyperLink ID="lnkFeedback" runat="server" Text="FEEDBACK" ToolTip="FEEDBACK"
+                                        CssClass="top_link"></asp:HyperLink>
+                                    <ul class="sub">
+                                        <li>
+                                            <asp:HyperLink ID="lnkContactus" runat="server" Text="Contact Us" ToolTip="Contact us"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkSuggestion" runat="server" Text="Suggestions" ToolTip="Suggestions"></asp:HyperLink></li>
+                                    </ul>
+                                </li>
+                                <%--Account Setting --%>
+                                <li class="top">
+                                    <asp:HyperLink ID="lnkAccountSetting" runat="server" Text="SETTINGS" ToolTip="SETTINGS"
+                                        CssClass="top_link"></asp:HyperLink>
+                                    <ul class="sub">
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageUser" runat="server" OnClick="lnkManageUser_Click" Text="Manage Admin" ToolTip="Manage Admin"></asp:HyperLink>
+                                            <%--<asp:LinkButton ID="lnkManageUser" runat="server" OnClick="lnkManageUser_Click" Text="Manage Admin" ToolTip="Manage Admin"></asp:LinkButton>--%>
+                                        </li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageManger" runat="server" Text="Manage Managers" ToolTip="Manage Managers"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageAgents" runat="server" Text="Manage Agents" ToolTip="Manage Agents"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkPassword" runat="server" Text="Change Password" ToolTip="Change Password"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkReferalSource" runat="Server" Text="Manage Referral Source"
+                                                ToolTip="Manage Referral Source"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkAdditionalService" runat="server" Text="Additional Services"
+                                                ToolTip="Additional Services"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageBreed" runat="Server" Text="Manage Breeds" ToolTip="Manage Breeds"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageStyle" runat="Server" Text="Manage Styles" ToolTip="Manage Styles"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkAppointment" runat="Server" Text="Manage Appointment Time"
+                                                ToolTip="Manage Appointment Time"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkAppointmentDate" runat="Server" Text="Manage Appointment Date"
+                                                ToolTip="Manage Appointment Date"></asp:HyperLink></li>
+                                       
+                                    </ul>
+                                </li>
+                                <%-- Banner --%>
+                                <li class="top">
+                                    <ul class="sub">
+                                        <%--<li><asp:HyperLink ID="HypManageBanner"   runat="server" Text="Manage Banner"  ToolTip="Manage Banner"></asp:HyperLink></li>--%>
+                                        <li>
+                                            <asp:HyperLink ID="HypBanner" runat="server" Text="Manage Banners" ToolTip="Manage Banners"></asp:HyperLink></li>
+                                      
+                                        <li>
+                                            <asp:HyperLink ID="HypUploadBanner" runat="server" Text="Upload Banner" ToolTip="Upload Banner"></asp:HyperLink></li>
+
+                                    </ul>
+                                    <asp:HyperLink ID="lnkBaner" runat="Server" Text="BANNERS" ToolTip="BANNERS" CssClass="top_link"></asp:HyperLink>
+                                </li>
+                                <li class="top">
+                                    <asp:HyperLink ID="lnkDBFunc" runat="Server" Text="UTILITIES" ToolTip="UTILITIES"
+                                        CssClass="top_link"></asp:HyperLink>
+                                    <ul class="sub">
+                                        <li>
+                                            <asp:HyperLink ID="lnkBackup" runat="Server" Text="BACKUP" ToolTip="BACKUP"></asp:HyperLink>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="top">
+                                    <asp:HyperLink ID="lnkGroomer" runat="Server" Text="GROOMER" ToolTip="GROOMER" CssClass="top_link"></asp:HyperLink>
+                                    <ul class="sub">
+                                        <li>
+                                            <asp:HyperLink ID="lnkManageGroomer" runat="server" Text="Manage Groomers" ToolTip="Manage Groomers"></asp:HyperLink>
+                                        </li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkGroomerAppointment" runat="server" Text="Groomer Appointments"
+                                                ToolTip="Groomer’s Appointments"></asp:HyperLink></li>
+                                        <%--<li><asp:HyperLink ID="lnkGroomerdailyLog" runat="server" Text="Groomer’s Operations Log Daily" ToolTip="Groomer’s Operations Log Daily"></asp:HyperLink></li>
+                                              <li><asp:HyperLink ID="lnkGroomerMonthlyLog" runat="server" Text="Groomer’s Operations Log Monthly" ToolTip="Groomer’s Operations Log Monthly"></asp:HyperLink></li>--%>
+                                        <li>
+                                            <asp:HyperLink ID="lnkEditExcel" runat="server" Text="Manage Excel" ToolTip="Manage Excel"></asp:HyperLink></li>
+                                        <%-- <li><asp:HyperLink ID="lnkExportToExcel" runat="server" Text="Export To Excel" ToolTip="Export To Excel"></asp:HyperLink></li>--%>
+                                        <li>
+                                            <asp:HyperLink ID="lnkUploadDnloadExl" runat="server" Text="Upload / Download Excel"
+                                                ToolTip="Upload / Download Excel"></asp:HyperLink></li>
+                                        <li>
+                                            <asp:HyperLink ID="lnkUploadgroomerapt" runat="server" Text="Upload Groomer Appointments"
+                                                ToolTip="Upload Groomer Appointments"></asp:HyperLink></li>
+                                        <%--<li><asp:HyperLink ID="hypExportLockUnlock" runat="server" Text="Lock/Unlock Excel" ToolTip="Lock/Unlock Excel"></asp:HyperLink></li>--%>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%-- *********************************Header Starts Here*********************************************** --%>
+        <%-- *********************************Content Starts Here*********************************************** --%>
+        <%--<asp:UpdatePanel ID="pnlDynamicContent" runat="server" UpdateMode="Conditional"  ChildrenAsTriggers="true">
+         <ContentTemplate>--%>
+                <div class="content">
+                    <div class="contentwrapper">
+                        <div class="wrapper">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <%-- *********************************Content ends Here*********************************************** --%>
+                <%-- *********************************Footer Starts Here*********************************************** --%>
+                <div class="footer">
+                    <%--<div class="validator">
+                    <a href="#" title="HTML" class="htmlValidator">
+                        <img src="../images/html_valid_logo.gif" width="71" height="27" alt="HTML" /></a>
+                    <a href="#" title="CSS" class="cssValidator">
+                        <img src="../images/css_valid_logo.gif" width="57" height="27" alt="CSS" /></a>
+                </div>--%>
+                    <div class="footerLinks">
+                       
+                   
+                        &nbsp;<br />
+                        <img src="../../Images/spacer.gif" width="1" height="6" alt="" class="spacer" />
+                        <span class="copyrights">&copy; Copyright 2009. Fritzy’s Pet Care Pros. All Rights Reserved.</span>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <%--<div class="designBy">
+                    Designed by <a href="http://www.dharne.com/" target="_blank">dharne&amp;co</a></div>--%>
+                    <div class="clear">
+                    </div>
+                </div>
+                <%-- *********************************Footer ends Here*********************************************** --%>
+            <%--</ContentTemplate>--%>
+          
+       <%-- </asp:UpdatePanel>--%>
+    </form>
+</body>
+</html>

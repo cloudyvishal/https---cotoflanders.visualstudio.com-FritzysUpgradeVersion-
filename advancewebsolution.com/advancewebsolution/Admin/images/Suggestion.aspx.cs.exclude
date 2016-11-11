@@ -1,0 +1,192 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class Admin_Suggestion : System.Web.UI.Page
+{
+    public void ErrMessage(string Message)
+    {
+        divError.Visible = true;
+        divError.Attributes.Add("Class", "errorTable");
+        lblError.Visible = true;
+        lblError.Text = Message;
+    }
+    public void SuccesfullMessage(string Message)
+    {
+        divError.Visible = true;
+        divError.Attributes.Add("Class", "successTable");
+        lblError.Visible = true;
+        lblError.Text = Message;
+    }
+    private string SortExpression
+    {
+        get
+        {
+            if (ViewState["SortExpression"] != null)
+                return (string)ViewState["SortExpression"];
+            else
+                return string.Empty;
+        }
+        set
+        {
+            if (ViewState["SortExpression"] == null)
+                ViewState.Add("SortExpression", value);
+            else
+                ViewState["SortExpression"] = value;
+        }
+    }
+
+    private string SortDirection
+    {
+        get
+        {
+            if (ViewState["SortDirection"] != null)
+                return (string)ViewState["SortDirection"];
+            else
+                return "ASC";
+        }
+        set
+        {
+            if (ViewState["SortDirection"] == null)
+                ViewState.Add("SortDirection", value);
+            else
+                ViewState["SortDirection"] = value;
+        }
+    }
+    public void Bind()
+    {
+        Global ObjSuggest = new Global();
+        DataSet ds = new DataSet();
+        DataTable dt = new DataTable();
+        DataView dv = new DataView();
+        ds = ObjSuggest.GetAllSuggestion();
+        if (ds.Tables[0].Rows.Count > 0)
+        {
+            GrdSuggestion.Visible = true;
+            btnDelete.Visible = true;
+            dt = ds.Tables[0];
+            dv = dt.DefaultView;
+            if ((SortExpression != string.Empty) && (SortDirection != string.Empty))
+                dv.Sort = SortExpression + " " + SortDirection;
+
+            GrdSuggestion.DataSource = dv;
+            GrdSuggestion.DataBind();
+            CheckAll();
+            check();
+            Utility.Setserial(GrdSuggestion, "srno");
+        }
+        else
+        {
+            GrdSuggestion.Visible = false;
+            btnDelete.Visible = false;
+            ErrMessage("Sorry no records found." );
+        }
+    }
+
+    public void CheckAll()
+    {
+        CheckBox chkall;
+        chkall = (CheckBox)GrdSuggestion.HeaderRow.FindControl("chkall");
+        chkall.Attributes.Add("onclick", "checkall()");
+        string str;
+        str = "function checkall()";
+        str = str + "{if(document.getElementById('" + chkall.ClientID + "').checked==true)";
+        str = str + "{";
+        foreach (GridViewRow gvr in GrdSuggestion.Rows)
+        {
+            CheckBox checkall;
+            checkall = (CheckBox)gvr.FindControl("chkSelect");
+            str = str + "document.getElementById('" + checkall.ClientID + "').checked=true;";
+        }
+        str = str + "}";
+        str = str + "else";
+        str = str + "{";
+        foreach (GridViewRow grv in GrdSuggestion.Rows)
+        {
+            CheckBox chk1;
+            chk1 = (CheckBox)grv.FindControl("chkSelect");
+            str = str + "document.getElementById('" + chk1.ClientID + "').checked=false;";
+        }
+        str = str + "}}";
+        Page.ClientScript.RegisterStartupScript(GetType(), "sss", str, true);
+    }
+
+    protected void check()
+    {
+        string checkid = "";
+        checkid += "function val(id){";
+        checkid += "var flg=0;";
+
+        foreach (GridViewRow grv in GrdSuggestion.Rows)
+        {
+            CheckBox chk1;
+            chk1 = (CheckBox)grv.FindControl("chkSelect");
+            checkid += "if(document.getElementById('" + chk1.ClientID + "').checked==true){";
+            checkid += "flg=1;}";
+        }
+        checkid += "if(flg!=1){";
+        checkid += "alert('Select Atleast One Suggestion');return false;}";
+        checkid += "if(flg==1 && id==1){";
+        checkid += "if(!confirm('Do You Want To Delete Selected Suggestion(s) ?')){return false;}}";
+        checkid += "if(flg==1 && id==2){";
+        checkid += "if(!confirm('Do You Want To Change Status of Suggestion(s) ?')){return false;}}";
+        checkid = checkid + "}";
+        Page.ClientScript.RegisterClientScriptBlock(GetType(), "myscript2", checkid, true);
+
+        //btnactdeact.Attributes.Add("onclick", "return val(0);");
+        btnDelete.Attributes.Add("onclick", "return val(1);");
+        //btnStatus.Attributes.Add("onclick", "return val(2);");
+
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            Bind();
+        }
+    }
+    protected void btnDelete_Click(object sender, EventArgs e)
+    {
+        string SuggestionID = Utility.GetCheckedRow(GrdSuggestion, "chkSelect");
+        if (SuggestionID != "")
+        {
+            Global ObjUser = new Global();
+            ObjUser.DeleteSuggestion(SuggestionID);
+            Bind();
+        }
+    }
+    protected void GrdSuggestion_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        GrdSuggestion.PageIndex = e.NewPageIndex;
+        Bind();
+    }
+    protected void GrdSuggestion_Sorting(object sender, GridViewSortEventArgs e)
+    {
+        if (SortExpression != e.SortExpression)
+        {
+            SortExpression = e.SortExpression;
+            SortDirection = "ASC";
+        }
+        else
+        {
+            if (SortDirection == "ASC")
+            {
+                SortDirection = "DESC";
+            }
+            else
+            {
+                SortDirection = "ASC";
+            }
+        }
+        GrdSuggestion.PageIndex = 0;
+        Bind();
+    }
+}

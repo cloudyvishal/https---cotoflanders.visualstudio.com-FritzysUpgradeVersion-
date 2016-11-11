@@ -1,0 +1,94 @@
+<%@ Page Language="C#" MasterPageFile="~/Admin/AdminMaster.master" AutoEventWireup="true" CodeFile="ContactUs.aspx.cs" Inherits="Admin_ContactUs" Title="Admin - Contact Us" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+  
+    <div class="innerContent">
+        <div class="pageTitle">
+            <h2>
+                Contact Us</h2>
+        </div>
+        <div style="width: 95%" id="divError" runat="server" visible="false">
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <td align="left" rowspan="2">
+                            <asp:Label ID="lblError" runat="server" Visible="False" Font-Bold="True"></asp:Label>&nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <asp:GridView ID="gdvContactUs" runat="server" AutoGenerateColumns="False" CellPadding="0"
+            AllowPaging="True" DataKeyNames="ContactID" GridLines="Vertical" Width="100%"
+            OnPageIndexChanging="gdvStaticFiles_PageIndexChanging" HeaderStyle-CssClass="headerStyle" CssClass="gridStyle" AlternatingRowStyle-CssClass="altGridStyle">
+            <FooterStyle BackColor="#CCCC99" HorizontalAlign="Center" VerticalAlign="Middle"></FooterStyle>
+            <Columns>
+                <asp:TemplateField HeaderText="Sr. No.">
+                    <ItemStyle CssClass="itemstyle" Width="5%" HorizontalAlign="center" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="srno" runat="server"></asp:Label>
+                    </ItemTemplate>
+                   
+                </asp:TemplateField>
+                <asp:TemplateField>
+                    <ItemStyle CssClass="itemstyle" Width="5%" HorizontalAlign="center"/>
+                            <HeaderStyle CssClass="headerStyle" />
+                    <HeaderTemplate>
+                        <asp:CheckBox ID="chkall" runat="server" />
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <asp:CheckBox ID="chkSelect" runat="server" />
+                    </ItemTemplate>
+                </asp:TemplateField>
+               <%-- <asp:TemplateField HeaderText="Name">
+                    <ItemStyle CssClass="itemstyle" Width="20%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblServiceType" runat="server" Text='<%# Bind("fullName") %>'></asp:Label>
+                    </ItemTemplate>
+                    
+                </asp:TemplateField>--%>
+                
+                   <asp:HyperLinkField ItemStyle-CssClass="itemstyle" HeaderStyle-CssClass="headerStyle" DataNavigateUrlFields="ContactID" DataNavigateUrlFormatString="ContactUsDetail.aspx?ID={0}"
+                            DataTextField="fullName" HeaderText="Name"  >
+                 </asp:HyperLinkField>
+                        
+                <asp:TemplateField HeaderText="Message">
+                    <ItemStyle CssClass="itemstyle" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <div class="contactOverflow"><asp:Label ID="lblImage" runat="server" Text='<%# Bind("Message") %>'></asp:Label></div>
+                    </ItemTemplate>
+                    
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="Email">
+                    <ItemStyle CssClass="itemstyle" Width="20%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblAddedon" runat="server" Text='<%# Bind("Email") %>'></asp:Label>
+                    </ItemTemplate>
+                    
+                </asp:TemplateField>
+               <%-- <asp:TemplateField HeaderText="Mobile">
+                   <ItemStyle CssClass="itemstyle" Width="12%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblStatus" runat="server" Text='<%# Bind("Mobile") %>'></asp:Label>
+                    </ItemTemplate>
+                   
+                </asp:TemplateField>--%>
+                <asp:TemplateField HeaderText="Date">
+                   <ItemStyle CssClass="itemstyle" Width="10%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblFile" runat="server" Text='<%# Bind("Addedon") %>'></asp:Label>
+                    </ItemTemplate>
+                   
+                </asp:TemplateField>
+            </Columns>
+            
+        </asp:GridView>
+        <asp:Button ID="btnDelete" runat="server" Text="Delete" ToolTip="Delete" CssClass="btnBg" OnClick="btnDelete_Click" />
+    </div>
+</asp:Content>
+

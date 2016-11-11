@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="admin_admin" Codebehind="admin.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+    <link href="admin.css" rel="Stylesheet" type="text/css" media="all" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    <form id="form1" runat="server">
+    <div class="container">
+        <div class="maincontainer">
+            <div class="containwrapper">
+                <div class="header">
+                    <div class="header_right">
+                        <ul class="topnav">
+                            <li>Welcome <span class="big">UserUser Name</span> </li>
+                            <li>| </li>
+                            <li><a href="Login.aspx" title="Logout" class="logoutlnk">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav">
+                    <div class="top_t">
+                        <div class="top_tl">
+                            <div class="top_tr">
+                                <div class="top_content">
+                                    <ul id="menu">
+                                        <li><a href="home.aspx" title="Home">Home</a></li>
+                                        <li class="sub"><a href="home.aspx" title="Home">Groomer Operations</a>
+                                            <ul>
+                                                <li><a href="#nogo3">Cameras</a></li>
+                                                <li><a href="#nogo7">Lenses </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub"><a href="home.aspx" title="Home">Groomer Log</a>
+                                            <ul>
+                                                <li><a href="#nogo3">Cameras</a></li>
+                                                <li><a href="#nogo7">Lenses </a></li>
+                                                <li><a href="#nogo7">Lenses </a></li>
+                                                <li><a href="#nogo7">Lenses </a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="home.aspx" title="Home">Appointments</a></li>
+                                        <li><a href="home.aspx" title="Home">Supress Data</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentdiv">
+                    <div class="t">
+                        <div class="b">
+                            <div class="r">
+                                <div class="l">
+                                    <div class="homebl">
+                                        <div class="homebr">
+                                            <div class="navtl">
+                                                <div class="navtr">
+                                                    <div class="home_content">
+                                                        <div class="home_innercontent">
+                                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                            </asp:ContentPlaceHolder>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

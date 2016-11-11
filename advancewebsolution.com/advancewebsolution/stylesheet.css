@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+	font: 1em Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #663300;
+	background: url(images/tile.jpg) repeat-x #ffffff;
+}
+
+a:focus {outline-style: none;}
+a img {border: none;}
+
+a:link{color: #666666;}
+a:hover{color: #663300;}
+a:visited{color: #666666;}
+	
+/******************* VERTICAL NAVIGATION *******************/
+
+#navbar {
+	width: 181px;
+	float: right;
+	background: url(images/nav_tile.gif) repeat-y;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 0 15px 0 15px;
+}
+
+#navbottom {
+	clear: right;
+	float: right;
+}
+
+#navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul a {
+	display: block;
+	width: 181px;
+	height: 35px;
+	line-height: 35px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#home {
+	margin-top: 30px;
+	border-bottom: #8cdbf4 dotted 2px;
+}
+
+#coupon {
+	border-bottom: #8cdbf4 dotted 2px;
+}
+
+#navbar ul a:link {color: #666666;}
+#navbar ul a:hover{color: #663300;}
+#navbar ul .selected {color: #663300;}
+
+
+/******************* STRUCTURE *******************/
+
+#clearfix {
+	clear: both;
+}
+
+#container {
+	width: 775px;
+	margin: 0 auto;
+	background: url(images/content_tile.gif) repeat-y;
+}
+
+#bottom {
+	width: 775px;
+	margin: 0 auto;
+	background: url(images/bottom.jpg) no-repeat bottom center;
+}
+
+#header {
+	height: 247px;
+	background: url(images/header.jpg) no-repeat center top;
+}
+
+#maincontent {
+	padding: 0;
+	margin: 0 0 -20px 0;
+}
+
+#leftcol {
+	float: left;
+	width: 30%;
+	_width: 25%; /*IE 6 hack */
+}
+
+#centercol {
+	float: left;
+	width: 40%;
+	_width: 40%; /*IE 6 hack */
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+*+html #centercol { /*IE 7 hack */
+	width: 35%;
+}
+
+#rightcol {
+	float: right;
+	width: 30%;
+	_width: 25%; /*IE 6 hack */
+}
+
+#footer {
+	margin: 0 auto;
+	width: 775px;
+}
+
+/******************* HOME PAGE *******************/
+
+.slogan {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+h1 {
+	width: 570px;
+	height: 41px;
+	background: url(images/title_tile.gif) repeat-x;
+	margin: 0 auto 20px auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 41px;
+	text-align: center;
+}
+
+#centercol ul {
+	margin: 0 0 0 40px;
+	padding: 0;
+	list-style: none;
+}
+
+#centercol ul li {
+	background: url(images/bullet.gif) no-repeat 0 50%;
+	padding-left: 20px;
+}
+
+#bracket-left {
+	margin-left: 30px;
+}
+
+#bracket-right {
+	margin-right: 30px;
+	_margin-right: 15px; /*IE 6 hack */
+}
+
+#left {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	color: #666666;
+}
+
+#right {
+	text-align: center;
+}
+
+#kitty {
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
+
+.call {
+	text-align: center;
+	clear: left;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #0099cc;
+	padding-bottom: 35px;
+}
+
+.copyright {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: .8em;
+	color:#666666;
+}
+
+/******************* CONTACT PAGE *******************/
+
+h2 {
+	width: 570px;
+	height: 41px;
+	background: url(images/title_tile.gif) repeat-x;
+	margin: 0 auto 20px auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: .9em;
+	font-weight: 400;
+	color: #666666;
+	line-height: 41px;
+	text-align: center;
+}
+
+form {
+	color: #0099cc;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+label{
+	float: left;
+	width: 260px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+input, textarea{
+	width: 250px;
+	margin-bottom: 5px;
+}
+
+textarea{
+	width: 250px;
+	height: 100px;
+}
+
+#submitbutton{
+	margin-left: 425px;
+	margin-top: 5px;
+	width: 90px;
+	cursor:pointer;
+	border: none;
+	background: #ffffff;
+	color:#663300;
+	font-weight:bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 1px 2px;
+	background: url(images/arrow.gif) no-repeat right 50%;
+}

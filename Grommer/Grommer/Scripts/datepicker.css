@@ -1,0 +1,269 @@
+﻿ A{
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 3px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #566047
+}
+A:unknown {
+	COLOR: #566047
+}
+.message {
+	BORDER-RIGHT: blue 1px solid; BORDER-TOP: blue 1px solid; BACKGROUND: #7da7d9; BORDER-LEFT: blue 1px solid; COLOR: black; BORDER-BOTTOM: blue 1px solid
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #1e478b; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #1e478b; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #1e478b; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.error {
+	BORDER-RIGHT: red 1px solid; BORDER-TOP: red 1px solid; FONT-WEIGHT: bolder; BACKGROUND: #ffc1c1; BORDER-LEFT: red 1px solid; COLOR: red; BORDER-BOTTOM: red 1px solid
+}
+.nopads {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#container {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 770px; PADDING-TOP: 0px; POSITION: relative; TEXT-ALIGN: left
+}
+#upperbanner {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; WIDTH: 770px; POSITION: relative; HEIGHT: 150px
+}
+BODY {
+	MARGIN-TOP: 0px
+}
+#bodydiv {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 100px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 670px; BORDER-BOTTOM: #cccccc 1px solid; POSITION: absolute; TOP: 150px; align: center
+}
+.required {
+	COLOR: red
+}
+.headerprint {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 400px; POSITION: relative; align: right
+}
+.checkboxtext {
+	COLOR: black; TEXT-DECORATION: none
+}
+#navbar {
+	LEFT: 0px; WIDTH: 100px; POSITION: absolute; TOP: 0px
+}
+#navbar #nav-menu {
+	WIDTH: 100px; align: left
+}
+#navbar #nav-menu A:hover {
+	BACKGROUND-COLOR: #000066
+}
+#navbar #nav-menu A {
+	DISPLAY: block; PADDING-LEFT: 5px; FONT-SIZE: 10px; WIDTH: 85px; COLOR: #ffffff; LINE-HEIGHT: 2em; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 2em; BACKGROUND-COLOR: #3f5a85; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#loginbox {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 8px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 3px; BORDER-LEFT: #cccccc 1px solid; MARGIN-RIGHT: 5px; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+#loginbox  {
+	FONT-SIZE: 9px
+}
+#navbar #nav-menu .smlink:hover {
+	FONT-SIZE: 9px; COLOR: #000066; BACKGROUND-COLOR: #eeeeee
+}
+#navbar #nav-menu .smlink {
+	FONT-SIZE: 9px; COLOR: #000066; BACKGROUND-COLOR: #eeeeee
+}
+#loginbox .smlogin {
+	FONT-SIZE: 9px; WIDTH: 50px
+}
+#mainbody {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; MIN-HEIGHT: 500px; PADDING-BOTTOM: 10px; WIDTH: 650px; PADDING-TOP: 0px; POSITION: relative
+}
+#bodycontent {
+	VERTICAL-ALIGN: top; WIDTH: 100%; PADDING-TOP: 10px; HEIGHT: 250px; TEXT-ALIGN: left
+}
+#footer {
+	BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 0px; MARGIN-LEFT: -100px; POSITION: relative; TEXT-ALIGN: center
+}
+#copyrights {
+	PADDING-BOTTOM: 10px
+}
+.leg {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 5px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.bid {
+	BORDER-RIGHT: #0a2356 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #0a2356 1px solid; MARGIN-TOP: 5px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #0a2356 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #0a2356 1px solid; BACKGROUND-COLOR: #e8ecf5
+}
+.payment {
+	BORDER-RIGHT: #005826 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #005826 1px solid; MARGIN-TOP: 5px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #005826 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #005826 1px solid; BACKGROUND-COLOR: #b3d7c0
+}
+.ginfo {
+	FONT-SIZE: 11px; WHITE-SPACE: nowrap
+}
+.rightalign {
+	TEXT-ALIGN: right
+}
+.button {
+	FONT-SIZE: 11px; COLOR: #002b8e; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.button IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.button A:link {
+	COLOR: #002b8e
+}
+.button A:active {
+	COLOR: #002b8e
+}
+.button A:hover {
+	COLOR: #004dff
+}
+.button A:visited {
+	COLOR: #002b8e
+}
+#airportlist TH {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: black 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 11px; BACKGROUND: #f4ca3d; BORDER-LEFT: black 1px solid; COLOR: black; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Arial
+}
+#airportlist TR A {
+	FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+#airportlist .odd TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #dfdfdf
+}
+#airportlist .even TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fbfbfb
+}
+.list {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.list THEAD TR TH {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; BACKGROUND: #020481; PADDING-BOTTOM: 3px; COLOR: #dadada; PADDING-TOP: 3px
+}
+.list THEAD TR TH A {
+	COLOR: #dadada; TEXT-DECORATION: none
+}
+.list TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.list .odd TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #dfdfdf; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.list .even TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fbfbfb; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.list .boldme {
+	FONT-WEIGHT: bold
+}
+.greenlist {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.greenlist THEAD TR TH {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; BACKGROUND: #005826; PADDING-BOTTOM: 3px; COLOR: #dadada; PADDING-TOP: 3px
+}
+.greenlist THEAD TR TH A {
+	COLOR: #dadada; TEXT-DECORATION: none
+}
+.greenlist TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.greenlist .odd TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #dfdfdf; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.greenlist .even TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fbfbfb; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.greenlist .boldme {
+	FONT-WEIGHT: bold
+}
+.vehiclelist {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 9px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.vehiclelist THEAD TR TH {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 9px; BACKGROUND: #020481; PADDING-BOTTOM: 1px; COLOR: #dadada; PADDING-TOP: 1px; TEXT-ALIGN: center
+}
+.vehiclelist THEAD TR TH A {
+	FONT-SIZE: 9px; COLOR: #dadada; TEXT-DECORATION: none
+}
+.vehiclelist TD A {
+	FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+.vehiclelist .odd TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 10px; BACKGROUND: #dfdfdf; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.vehiclelist .even TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 10px; BACKGROUND: #fbfbfb; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.vehiclelist .boldme {
+	FONT-WEIGHT: bold
+}
+.pagebanner {
+	PADDING-RIGHT: 100px
+}
+.pagelinks {
+	TEXT-ALIGN: right
+}
+.dpDiv {
+	
+}
+.dpTable {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; FONT-SIZE: 11px; 
+	BORDER-LEFT: #aaaaaa 1px solid; COLOR: #505050; BORDER-BOTTOM: #aaaaaa 1px solid; 
+	FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #ece9d8; 
+/* SN */
+	BACKGROUND-COLOR: white; 
+	TEXT-ALIGN: center
+}
+.dpTR {
+	
+}
+.dpTitleTR {
+
+}
+.dpDayTR {
+	
+}
+.dpTodayButtonTR {
+	
+}
+.dpTD {
+	BORDER-RIGHT: #ece9d8 1px solid; BORDER-TOP: #ece9d8 1px solid; BORDER-LEFT: #ece9d8 1px solid; BORDER-BOTTOM: #ece9d8 1px solid;
+	/* SN */
+	COLOR:Black;
+}
+.dpDayHighlightTD {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.dpTDHover {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; BORDER-LEFT: #888888 1px solid; CURSOR: pointer; COLOR: red; BORDER-BOTTOM: #888888 1px solid; BACKGROUND-COLOR: #aca998
+}
+.dpTitleTD {
+	
+}
+.dpButtonTD {
+	
+}
+.dpTodayButtonTD {
+	
+}
+.dpDayTD {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; COLOR: white; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.dpTitleText {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; 
+	COLOR: gray;
+	/* SN */
+	COLOR:Black;
+}
+.dpDayHighlight {
+	FONT-WEIGHT: bold
+}
+.dpButton {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: #d8e8ff; PADDING-BOTTOM: 0px; COLOR: gray; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica, sans-serif
+}
+.dpTodayButton {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: #d8e8ff; COLOR: gray; FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica, sans-serif
+}

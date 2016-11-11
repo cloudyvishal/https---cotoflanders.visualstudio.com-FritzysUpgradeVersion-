@@ -1,0 +1,132 @@
+ItemTemplate>
+                    
+                </asp:TemplateField>
+                <asp:TemplateField>
+                    <ItemStyle CssClass="itemstyle" Width="5%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <HeaderTemplate>
+                        <asp:CheckBox ID="chkall" runat="server" />
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <asp:CheckBox ID="chkSelect" runat="server" />
+                    </ItemTemplate>
+                </asp:TemplateField>
+                <asp:HyperLinkField SortExpression="ServiceTitle"  ItemStyle-CssClass="itemstyle" HeaderStyle-CssClass="headerStyle" DataNavigateUrlFields="ServiceID" DataNavigateUrlFormatString="EditService.aspx?ServiceID={0}"
+                    DataTextField="ServiceTitle" HeaderText="Service Title"  >
+                   
+                </asp:HyperLinkField>
+                <asp:TemplateField HeaderText="Service For"  Visible="false" >
+                    <ItemStyle CssClass="itemstyle" Width="10%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblServiceType" runat="server" Text='<%# Bind("ServiceType") %>'></asp:Label>
+                    </ItemTemplate>
+                    
+                </asp:TemplateField>
+                
+                 <asp:TemplateField HeaderText="Home Service" SortExpression="IsHome">
+                    <ItemStyle CssClass="itemstyle" Width="12%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                          <asp:Label ID="lblIsHome" runat="server" Text='<%# Bind("IsHome") %>'></asp:Label>
+                    </ItemTemplate>
+                </asp:TemplateField>
+                
+                <asp:TemplateField HeaderText="Flea Service" SortExpression="IsFlea">
+                    <ItemStyle CssClass="itemstyle" Width="12%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                          <asp:Label ID="lblIsFlea" runat="server" Text='<%# Bind("IsFlea") %>'></asp:Label>
+                    </ItemTemplate>
+                </asp:TemplateField>
+                
+                
+                <asp:TemplateField HeaderText="Added on" SortExpression="Addedon">
+                    <ItemStyle CssClass="itemstyle" Width="12%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblAddedon" runat="server" Text='<%# Bind("Addedon") %>'></asp:Label>
+                    </ItemTemplate>
+                    
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="Status" SortExpression="Status">
+                    <ItemStyle CssClass="itemstyle" Width="10%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblStatus" runat="server" Text='<%# Bind("Status") %>'></asp:Label>
+                    </ItemTemplate>
+                    
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="Image" Visible="false">
+                    <ItemStyle CssClass="itemstyle" Width="5%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblImage" runat="server" Text='<%# Bind("Image") %>'></asp:Label>
+                    </ItemTemplate>
+                    
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="FileName" Visible="false">
+                    <ItemStyle CssClass="itemstyle" Width="10%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="lblFile" runat="server" Text='<%# Bind("PageName") %>'></asp:Label>
+                    </ItemTemplate>
+                </asp:TemplateField>
+                
+                 <asp:TemplateField HeaderText="Order" >
+                    <ItemStyle CssClass="itemstyle" Width="10%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+<div class="itemstyle">
+        <table border="0" style="margin: 10px 0pt 0pt;">
+        <tr>
+                <td>Please select pet :</td>
+                <td>
+                 <asp:DropDownList ID="ddlPet" runat="server" AutoPostBack="true"
+            onselectedindexchanged="ddlPet_SelectedIndexChanged" >
+                                <asp:ListItem Value="0" Text="Cat"></asp:ListItem>
+                                <asp:ListItem Value="1" Text="Dog"></asp:ListItem>
+                            </asp:DropDownList>
+                 </td>
+         </tr>
+         </table>        
+                            
+        <asp:GridView ID="gdvStaticFiles" runat="server" AutoGenerateColumns="False" 
+                CellPadding="0" AllowSorting="true"
+            AllowPaging="True" DataKeyNames="serviceID" GridLines="Vertical" Width="100%"
+            OnPageIndexChanging="gdvStaticFiles_PageIndexChanging" 
+                HeaderStyle-CssClass="headerStyle" CssClass="gridStyle" 
+                AlternatingRowStyle-CssClass="altGridStyle" OnSorting="gdvStaticFiles_Sorting" 
+                onrowdatabound="gdvStaticFiles_RowDataBound" OnDataBound="gdvStaticFiles_DataBound" OnRowCreated="gdvStaticFiles_RowCreated">
+                
+                <PagerTemplate>
+                <asp:LinkButton ID="LinkButton1" runat="server" CommandName="Page" CommandArgument="First">First</asp:LinkButton>
+                <asp:Label ID="pmore" runat="server" Text="..."></asp:Label>
+                <asp:LinkButton ID="LinkButton2" runat="server" CommandName="Page" CommandArgument="Prev">Prev</asp:LinkButton>
+                <asp:LinkButton ID="p0" runat="server" >LinkButton</asp:LinkButton>
+                <asp:LinkButton ID="p1" runat="server" >LinkButton</asp:LinkButton>
+                <asp:LinkButton ID="p2" runat="server" >LinkButton</asp:LinkButton>
+                <asp:Label ID="CurrentPage" runat="server" Text="Label"></asp:Label>
+                <asp:LinkButton ID="p4" runat="server" >LinkButton</asp:LinkButton>
+                <asp:LinkButton ID="p5" runat="server" >LinkButton</asp:LinkButton>
+                <asp:LinkButton ID="p6" runat="server" >LinkButton</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton3" runat="server" CommandName="Page" CommandArgument="Next">Next</asp:LinkButton>
+                <asp:Label ID="nmore" runat="server" Text="..."></asp:Label>
+                <asp:LinkButton ID="LinkButton4" runat="server" CommandName="Page" CommandArgument="Last">Last</asp:LinkButton>
+               
+                </PagerTemplate>
+            <AlternatingRowStyle CssClass="altGridStyle" />
+            <PagerStyle CssClass="gridPager" />
+            <Columns>
+                <asp:TemplateField HeaderText="Sr. No.">
+                    <ItemStyle CssClass="itemstyle" Width="5%" />
+                            <HeaderStyle CssClass="headerStyle" />
+                    <ItemTemplate>
+                        <asp:Label ID="srno" runat="server"></asp:Label>
+                    </ItemTemplate>
+                    </asp:TemplateField>
+                   </asp:GridView>
+                   </ItemTemplate>
+                   </asp:TemplateField>
+                  
+                   

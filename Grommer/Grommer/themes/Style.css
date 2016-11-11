@@ -1,0 +1,769 @@
+
+
+/* ---------------------- MOBILE CSS ---------------------- */
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #4f3d29;
+    font-weight: normal;
+    font-family: Times New Roman !important;
+    background: #83613c url(images/logo.jpg) no-repeat 50% 0;
+}
+
+.maindiv
+{
+    color: #4f3d29;
+    font-weight: normal;
+    font-size: 13px;
+    font-family: Times New Roman !important;
+    background: #83613c;
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+/* GENERALISATION */
+h1
+{
+    color: #fffeff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+    height: 20px;
+}
+h2
+{
+    color: #49382e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a
+{
+    color: #4f3d29;
+    font-size: 13px;
+    text-decoration: underline;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+div, p, table, tr, td, h1, h2, h3, h4, h5, h6, ul, li, ol
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* LAYOUT */
+.contentainer
+{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+.maincontainer
+{
+    width: 100%; /*margin:0px; padding:0px; background:#83613c url(images/logo.jpg) no-repeat 0 0;*/
+    height: 25px;
+}
+
+.containwrapper
+{
+    width: 98%;
+    margin: 0 auto;
+}
+.header
+{
+    width: 100%;
+    float: left;
+}
+.top_tl
+{
+    background: url(images/top_tl.jpg) 0 0 no-repeat;
+    width: 100%;
+    float: left;
+}
+.top_tr
+{
+    background: url(images/top_tr.jpg) 100% 0 no-repeat;
+    width: 100%;
+    float: left;
+}
+.top_t
+{
+    background: #009ed9;
+    width: 100%;
+    float: left;
+}
+
+.top_content
+{
+    padding: 3px 0 0 10px;
+    height: 18px;
+    width: 100%;
+    float: left;
+}
+
+/* CONTENT */
+.content
+{
+    width: 100%;
+    float: left;
+    background: #decfb9;
+}
+/* corners */
+.bl
+{
+    background: url(images/bl.jpg) 0 100% no-repeat;
+    width: 100%;
+    float: left;
+}
+.br
+{
+    background: url(images/br.jpg) 100% 100% no-repeat;
+    width: 100%;
+    float: left;
+}
+.tl
+{
+    background: url(images/tl.jpg) 0 0 no-repeat;
+    width: 100%;
+    float: left;
+}
+.tr
+{
+    background: url(images/tr.jpg) 100% 0 no-repeat;
+    padding: 5px 0;
+    width: 100%;
+    float: left;
+}
+/* bg color */
+.t
+{
+    background: url(images/dot.jpg) 0 0 repeat-x;
+    width: 100%;
+    float: left;
+}
+.b
+{
+    background: url(images/dot.jpg) 0 100% repeat-x;
+    width: 100%;
+    float: left;
+}
+.l
+{
+    background: url(images/dot.jpg) 0 0 repeat-y;
+    width: 100%;
+    float: left;
+}
+.r
+{
+    background: url(images/dot.jpg) 100% 0 repeat-y;
+    width: 100%;
+    float: left;
+}
+/* corners */
+/* .contentbg{ background:#decfb9; padding:5px 10px; width:268px; float:left;} */
+
+.contentbg
+{
+    background: #decfb9;
+    padding: 5px 3%;
+    width: 94%;
+    float: left;
+}
+
+/* LOGIN */
+.logincontainer
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.logindiv
+{
+    padding: 0 0px;
+    width: 240px;
+}
+.logindiv .divrow
+{
+    width: 100%;
+    padding: 3px 0;
+    float: left;
+}
+.logindiv .divcell_left
+{
+    float: left;
+    width: 29%;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.logindiv .divcell_right
+{
+    float: left;
+    width: 68%;
+}
+
+.lbl
+{
+    color: #4e3c28;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.txt
+{
+    background: #fff;
+    border: 1px solid #90734b;
+    height: 14px;
+    font-size: 13px;
+    margin: 0 0 2px 0;
+}
+.txt150
+{
+    width: 170px;
+    background: #fff;
+    border: 1px solid #90734b;
+    height: 14px;
+    font-size: 13px;
+}
+.divrow
+{
+    width: 98%;
+    padding: 3px 0;
+}
+.btn
+{
+    background: #d9c195;
+    color: #573804;
+    padding: 2px 0;
+    border: 1px solid #b38d4f;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/*.btn{ background:#83613c url(images/btnbg.jpg) repeat-x 0 0;  color:#573804; width:60px; padding:2px 0 2px 0; border:1px solid #b38d4f; font-size:0.820em; font-weight:bold; } */
+
+.link
+{
+    color: #4f3d29;
+    line-height: 1.5em;
+    font-size: 0.73em;
+    text-decoration: underline;
+}
+
+
+.divrow
+{
+    width: 100%;
+    padding: 3px 0;
+    float: left;
+}
+
+/*.divrow .div_left{ float:left; width: 33%; text-align:right; padding-right:5px; vertical-align:top;}
+.divrow .div_mid{ float:left; width: 33%;}
+.divrow .div_right{ float:left; width: 33%;}*/
+
+.divrow .div_first
+{
+    float: left;
+    width: 25%;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.divrow .div_second
+{
+    float: left;
+    width: 25%;
+}
+.divrow .div_third
+{
+    float: left;
+    width: 25%;
+}
+.divrow .div_fourth
+{
+    float: left;
+    width: 25%;
+}
+
+.divrow .div_content
+{
+    border: 1px solid #666666;
+    float: left;
+    padding: 5px 0;
+    text-align: center;
+    vertical-align: top;
+    width: 24%;
+}
+
+
+
+/* MASTER PAGE */
+.headercontent
+{
+    padding: 6px 5px 5px 5px;
+    font-size: 0.95em;
+    width: 98%;
+    float: left;
+}
+.headLeft
+{
+    width: 98%;
+    float: left;
+    text-align: right;
+    padding-right: 2%;
+}
+.headRight
+{
+    width: 100%;
+    float: left;
+    text-align: left;
+    color: #ffffff;
+}
+
+.headRight a
+{
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headRight a:hover
+{
+    text-decoration: underline;
+}
+
+
+/* OPERATIONS PAGE */
+.normal
+{
+    font-size: 0.85em;
+    color: #2F231C;
+}
+.big
+{
+    color: #2F231C;
+    font-weight: bold;
+    font-size: 13px;
+}
+.innercontent
+{
+    width: 100%; /*width:265px;*/
+    float: left;
+    margin: 5px 0 0 0;
+}
+.innercontent .divrow
+{
+    width: 100%;
+    padding: 3px 0;
+    float: left;
+}
+.innercontent .summary
+{
+    width: 80%;
+    padding: 5px;
+    float: left;
+    border: 1px solid #333;
+    background: #cccccc;
+    margin-left: 6%;
+}
+.innercontent .divcell_left
+{
+    float: left; /*width:35%;*/
+    width: 48%;
+    text-align: right;
+    padding-right: 2%;
+    vertical-align: top;
+}
+.innercontent .divcell_left .lbl
+{
+    color: #4e3c28;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: right;
+    line-height: 15px;
+}
+.innercontent .divcell_right
+{
+    float: left; /*width:60%;*/
+    width: 50%;
+}
+.innercontent .divcell_right_two
+{
+    float: left; /*width:60%;*/
+    width: 50%;
+}
+
+.multitxt
+{
+    background: #fff;
+    border: 1px solid #90734b;
+    height: 44px;
+    font-size: 13px;
+}
+.txt230
+{
+    width: 230px;
+}
+.txt117
+{
+    width: 130px;
+}
+.spacer10
+{
+    height: 5px;
+    clear: both;
+    border-bottom: 1px dotted #49382e;
+    margin: 0 0 5px 0;
+    width: 330px;
+}
+.radiobtn
+{
+    vertical-align: top;
+    font-size: 13px;
+}
+.radiobtn tr td
+{
+    padding: 0 15px 0 0;
+}
+.radiobtn input
+{
+    vertical-align: middle;
+    margin: 0 0px;
+}
+
+.bottombtn
+{
+    text-align: right;
+    padding-right: 10px;
+    width: 245px;
+}
+
+/* INVENTORY PAGE */
+.txt90
+{
+    width: 130px;
+    margin: 0 0 2px 0;
+}
+.inventory
+{
+}
+.inventory .divcell_left
+{
+    float: left;
+    width: 45%;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.inventory .divcell_right
+{
+    float: left;
+    width: 50%;
+}
+
+/* MESSAGES */
+.errorTable
+{
+    background: #f3dfdd;
+    width: 100%;
+    border: 1px solid #bd1104;
+    padding: 2px 5px;
+    color: #bd1104;
+    font-weight: bold;
+}
+.successTable
+{
+    background: #d7edd7;
+    width: 100%;
+    border: 1px solid #237421;
+    padding: 2px 5px;
+    color: #237421;
+    font-weight: bold;
+}
+
+/* FOOTER PAGE */
+.footer
+{
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+    padding: 2px 0 5px 0;
+    background: #decfb9;
+}
+.fright
+{
+}
+.fleft
+{
+    text-align: center;
+}
+.fleft a
+{
+    font-size: 12px !important;
+    color: #2f231c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.fleft a:hover
+{
+    text-decoration: none;
+}
+
+/* DASHBOARD PAGE */
+
+.appnt_tabs
+{
+    margin: 0;
+}
+/*a.appnt_link{ color: #7a5e40; font-size: 12px; border-right: 1px solid #4e3c28; margin-left: 5px; text-decoration: none; font-weight: bold; }
+a.appnt_link:hover{ color: #4e3c28; font-size: 12px; border: 1px solid #4e3c28; background: #e5daca; margin-left: 5px; text-decoration: none; font-weight: bold; }
+*/
+
+.appnt_tabs
+{
+    margin: 20px 0 20px 20px;
+}
+.appnt_lbl
+{
+    color: #4e3c28;
+    font-size: 13px;
+}
+.details_list tr td:first-child .appnt_lbl
+{
+    font-weight: bold;
+}
+.appnt_detail
+{
+    font-size: 13px;
+    width: 180px;
+}
+
+.appnt_tabs ul
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.appnt_tabs ul li
+{
+    list-style: none;
+    margin: 5px 0;
+    background: #e5daca;
+    padding: 2px 10px;
+    border: 1px solid #997349;
+}
+
+a.appnt_link
+{
+    color: #7a5e40;
+    font-size: 14px;
+    padding: 4px 10x;
+    margin: 0 0 5px 5px;
+    background: #e5daca;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.appnt_link:hover
+{
+    color: #4e3c28;
+    font-size: 13px;
+    padding: 4px 10x !important;
+    background: #e5daca;
+    margin: 0 0 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.errorTable2
+{
+    background: #f3dfdd;
+    width: 60%;
+    border: 1px solid #bd1104;
+    padding: 2px 5px;
+    color: #bd1104;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 0 0 10px 5px;
+}
+.error_msg
+{
+}
+
+#divError
+{
+    margin: 10px 0;
+    padding: 2px;
+}
+
+
+
+/* ============ Stats Summary ============ */
+
+.divrow
+{
+    width: 100%;
+    padding: 3px 0;
+    float: left;
+    font-size: 11px;
+}
+.divrow .div_left
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    padding-right: 5px;
+    vertical-align: top;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow .div_mid
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: ?px 0;
+}
+.divrow .div_right
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+
+.divrow .div_left1, .divrow .div_left2
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    padding-right: 5px;
+    vertical-align: top;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow .div_mid1, .divrow .div_mid2
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow .div_right1, .divrow .div_right2
+{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+
+.divrow .div_first
+{
+    float: left;
+    width: 24%;
+    text-align: center;
+    padding-right: 5px;
+    vertical-align: top;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow .div_second
+{
+    float: left;
+    width: 24%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow .div_third
+{
+    float: left;
+    width: 24%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+.divrow .div_fourth
+{
+    float: left;
+    width: 24%;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 5px 0;
+}
+
+.div_content
+{
+    float: left;
+    width: 20%;
+    margin-top: -3px;
+    text-align: center;
+    border: 1px solid #666666;
+    padding: 4px 5px 5px 5px;
+    border-top: none;
+    min-height: 20px;
+}
+.stat_content
+{
+    float: left;
+    width: 100%;
+}
+
+.clear
+{
+    clear: both;
+}
+.pet_time
+{
+    background: #DECFB9 !important;
+    border: 1px solid #DECFB9 !important;
+}
+.error_msg2
+{
+    margin-left: 170px;
+    font-size: 11px;
+}
+.calendar a
+{
+    text-decoration: none;
+}
+.calendar table
+{
+    margin: 0 auto;
+}
+.details_list td
+{
+    padding: 0 0 10px 0;
+    vertical-align: top;
+}
+.date_box
+{
+    padding: 10px 0;
+    text-align: center;
+}
+.headRight
+{
+    text-align: center;
+}
+.headRight a
+{
+    display: inline-block;
+}
+.mail_table table
+{
+    width: 100%;
+}
+.mail_table td
+{
+    padding: 4px;
+}

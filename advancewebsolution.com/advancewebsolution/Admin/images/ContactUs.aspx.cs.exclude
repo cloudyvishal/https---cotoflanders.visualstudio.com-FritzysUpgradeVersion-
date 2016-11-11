@@ -1,0 +1,124 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class Admin_ContactUs : System.Web.UI.Page
+{
+    public void SuccesfullMessage(string Message)
+    {
+        divError.Visible = true;
+        divError.Attributes.Add("Class", "successTable");
+        lblError.Visible = true;
+        lblError.Text = Message;
+    }
+    private void BindGrid()
+    {
+        StoreFront ObjStoreFront = new StoreFront();
+        DataSet ds = new DataSet();
+        ds = ObjStoreFront.GetAllContactus();
+        if (ds.Tables[0].Rows.Count > 0)
+        {
+            btnDelete.Visible = true;
+            gdvContactUs.Visible = true;
+            gdvContactUs.DataSource = ds;
+            gdvContactUs.DataBind();
+            CheckAll();
+            check();
+            Utility.Setserial(gdvContactUs, "srno");
+        }
+        else
+        {          
+            btnDelete.Visible = false;
+           gdvContactUs.Visible = false;
+        }
+    }
+
+    public void CheckAll()
+    {
+        CheckBox chkall;
+        chkall = (CheckBox)gdvContactUs.HeaderRow.FindControl("chkall");
+        chkall.Attributes.Add("onclick", "checkall()");
+        string str;
+        str = "function checkall()";
+        str = str + "{if(document.getElementById('" + chkall.ClientID + "').checked==true)";
+        str = str + "{";
+        foreach (GridViewRow gvr in gdvContactUs.Rows)
+        {
+            CheckBox checkall;
+            checkall = (CheckBox)gvr.FindControl("chkSelect");
+            str = str + "document.getElementById('" + checkall.ClientID + "').checked=true;";
+        }
+        str = str + "}";
+        str = str + "else";
+        str = str + "{";
+        foreach (GridViewRow grv in gdvContactUs.Rows)
+        {
+            CheckBox chk1;
+            chk1 = (CheckBox)grv.FindControl("chkSelect");
+            str = str + "document.getElementById('" + chk1.ClientID + "').checked=false;";
+        }
+        str = str + "}}";
+        Page.ClientScript.RegisterStartupScript(GetType(), "sss", str, true);
+    }
+
+    protected void check()
+    {
+        string checkid = "";
+        checkid += "function val(id){";
+        checkid += "var flg=0;";
+
+        foreach (GridViewRow grv in gdvContactUs.Rows)
+        {
+            CheckBox chk1;
+            chk1 = (CheckBox)grv.FindControl("chkSelect");
+            checkid += "if(document.getElementById('" + chk1.ClientID + "').checked==true){";
+            checkid += "flg=1;}";
+        }
+        checkid += "if(flg!=1){";
+        checkid += "alert('Select Atleast One file');return false;}";
+        checkid += "if(flg==1 && id==1){";
+        checkid += "if(!confirm('Do You Want To Delete Selected Message(s) ?')){return false;}}";
+        checkid += "if(flg==1 && id==2){";
+        checkid += "if(!confirm('Do You Want To Change Status of Message(s) ?')){return false;}}";
+        checkid = checkid + "}";
+        Page.ClientScript.RegisterClientScriptBlock(GetType(), "myscript2", checkid, true);
+
+        //btnactdeact.Attributes.Add("onclick", "return val(0);");
+        btnDelete.Attributes.Add("onclick", "return val(1);");
+       // btnStatus.Attributes.Add("onclick", "return val(2);");
+
+    }
+   
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            BindGrid();
+        }
+    }
+    protected void btnDelete_Click(object sender, EventArgs e)
+    {
+        string ContactID = Utility.GetCheckedRow(gdvContactUs, "chkSelect");
+        if (ContactID != "")
+        {
+            StoreFront ObjStoreFront = new StoreFront();
+            ObjStoreFront.DeleteContactUs(ContactID);
+        }
+        
+        
+        BindGrid();
+        SuccesfullMessage("Deleted successfully");
+    }
+    protected void gdvStaticFiles_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        gdvContactUs.PageIndex = e.NewPageIndex;
+        BindGrid();
+    }
+}

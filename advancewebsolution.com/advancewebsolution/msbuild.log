@@ -1,0 +1,38 @@
+Build started 4/15/2016 1:01:55 PM.
+Overriding target "GetFrameworkPaths" in project "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets".
+Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,71)" does not exist in the project, and will be ignored.
+The target "MvcBuildViews" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\Microsoft.Web.Publishing.targets (843,131)" does not exist in the project, and will be ignored.
+Project "D:\EdCode\FritzysFrmdharneProjectVII\Web Application Code\Code\advancewebsolution.com\advancewebsolution\advancewebsolution.csproj" on node 1 (go target(s)).
+Building with tools version "14.0".
+Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="14.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\EdCode\FritzysFrmdharneProjectVII\Web Application Code\Code\advancewebsolution.com\advancewebsolution\advancewebsolution.csproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message"
+  Configuration=Debug
+Done executing task "Message".
+Task "Message"
+  Platform=AnyCPU
+Done executing task "Message".
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\' != '' and !HasTrailingSlash('bin\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "advancewebsolution.csproj".
+D:\EdCode\FritzysFrmdharneProjectVII\Web Application Code\Code\advancewebsolution.com\advancewebsolution\advancewebsolution.csproj : error MSB4057: The target "go" does not exist in the project.
+Done Building Project "D:\EdCode\FritzysFrmdharneProjectVII\Web Application Code\Code\advancewebsolution.com\advancewebsolution\advancewebsolution.csproj" (go target(s)) -- FAILED.
+
+
+Build FAILED.
+
+"D:\EdCode\FritzysFrmdharneProjectVII\Web Application Code\Code\advancewebsolution.com\advancewebsolution\advancewebsolution.csproj" (go target) (1) ->
+  D:\EdCode\FritzysFrmdharneProjectVII\Web Application Code\Code\advancewebsolution.com\advancewebsolution\advancewebsolution.csproj : error MSB4057: The target "go" does not exist in the project.
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.75
